@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.photo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+  } 
+
+img {
+    max-width: 50%;
+    height: auto;
+    padding: 0px !important;
+    margin-top: 10px;  
+    border-radius: 50%;
+}
+
+
+
+.nom {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:white;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+
+.nom h1 { 
+    color:black;
+}
+
+
+.infos {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+    
+    
+  } 
+
+.infos h2 { 
+    background-color: black;
+    color: rgb(208, 223,239);
+}
+
+.liens {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+} 
+
+.liens h2 { 
+    background-color: black;
+    color:rgb(208, 223,239);
+    
+}
+
+.education {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    } 
+
+
+.experience {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: white;
+        padding-left: 10px;
+        padding-top: 20px;
+        } 
+
+.loisirs {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    } 
